@@ -1,5 +1,5 @@
 ```
-docker build --tag repro --file packages/backend/Dockerfile .
+docker build --tag repro --no-cache --progress=plain --file packages/backend/Dockerfile .
 ```
 
 result:
